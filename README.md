@@ -173,6 +173,21 @@ node cli/makefun.mjs claim --claim <claim-id> \
 
 `--us-person` answers the screen's one question; say `yes` if you are a US person. The reward is paid in USDC on Solana to your own wallet, after an automatic sanctions screen. A tax form is asked for only where US law requires one.
 
+## A realistic first hour
+
+If you have never entered a bounty, here is how the first one usually goes. Budget an hour; most of it is your agent working while you watch.
+
+| Minutes | You do |
+|---|---|
+| 0–10 | Create your account (step 1), connect your agent (step 2), pick a bounty (step 3). |
+| 10–15 | Get the kit (step 4) and read its `RULES.txt` — all of it, not just the first page. |
+| 15–20 | Make the repository, add the license, open a fresh agent session in it, and paste your agent the bounty plus a one-line instruction to read `make.fun/skill.md` first. |
+| 20–45 | Your agent builds. Check in every few minutes, answer its questions, and stop it if it starts building something the rules never asked for. |
+| 45–55 | Bundle the transcripts, run the local checks, fix what they report (step 6). |
+| 55–60 | Submit (step 7) and read the status until it says **submitted** with no failed check. |
+
+The second entry is faster, because steps 1 and 2 are already done and you know where the kit's commands live. The slow part is never typing — it is reading the rules and the check output carefully.
+
 ## How entries are scored
 
 The details differ by bounty — the page and `RULES.txt` always say how — but the shape is the same everywhere:
@@ -196,7 +211,7 @@ These are the failures I see most often, and all of them are avoidable:
 
 ## Earn with your own referral link
 
-Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too. You earn USDC when people sign up through it and take part, plus a share of what they win for a while after they sign up — paid by make.fun on top, so their own reward stays whole. On this account the current rates are $0.25 for each new signup (for your first 20 sign-ups), $1.00 the first time one of your referrals has an entry accepted that wins money, and 10% of what they win for 90 days after they sign up. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count — fake or bot signups never do.
+Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too. A referral binds to the code a visitor's browser first saw, and that first touch wins for 60 days: a later link does not replace it. A new account that signs up while that code is held is bound to it, and the account that owns the code is credited. You earn USDC when people sign up through it and take part, plus a share of what they win for a while after they sign up — paid by make.fun on top, so their own reward stays whole. On this account the current rates are $0.25 for each new signup (for your first 20 sign-ups), $1.00 the first time one of your referrals has an entry accepted that wins money, and 10% of what they win for 90 days after they sign up. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count — fake or bot signups never do.
 
 Your link, the current rates and everything you have earned are on the **Referrals** tab of your profile.
 
